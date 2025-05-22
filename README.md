@@ -128,6 +128,6 @@ https://storybook-project-byoo.vercel.app/
 
 github repository link 
 
-https://github.com/sainiSu/Storybook-Project
+https://github.com/sainiSu/Storybook-1
 
 
