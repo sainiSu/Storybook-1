@@ -44,34 +44,37 @@ npm run storybook
 
 📁 Project Structure – Design System Assignment
 
-design-system/
+ storybook-design-system/
+├── node_modules/
 ├── public/
-│   └── index.html
 ├── src/
 │   ├── components/
-│   │   ├── Typography/
-│   │   │   ├── Typography.tsx
-│   │   │   └── Typography.stories.tsx
-│   │   ├── /Input
-│   │   │   └── TextInput/
-│   │   │       ├── TextInput.tsx
-│   │   │       └── TextInput.stories.tsx
-│   │   └── Toast/
-│   │           ├── Toast.tsx
-│   │           ├── Toast.css
-│   │           └── Toast.stories.tsx
-│   ├── styles/
-│   │   └── global.css
-│   ├── App.tsx
-│   └── main.tsx
+│   │   ├── typography/
+│   │   │   ├── Heading.tsx
+│   │   │   ├── Paragraph.tsx
+│   │   │   ├── Caption.tsxx
+│   │   │   ├── textStyles.tsx
+│   │   │   ├── Heading.stories.tsx
+│   │   │   ├── Paragraph.stories.tsx
+│   │   │   ├── Caption.stories.tsx
+│   │   ├── data-entry/
+│   │   │   ├── TextInput.tsx
+│   │   │   ├── Dropdown.tsx
+│   │   │   ├── TextInput.stories.tsx
+│   │   │   ├── Dropdown.stories.tsx
+│   │   ├── feedback/
+│   │       ├── Alert.tsx
+│   │       ├── Toast.tsx
+│   │       ├── Modal.tsx
+│   │       ├── Alert.stories.tsx
+│   │       ├── Toast.stories.tsx
+│   │       ├── Modal.stories.tsx
 ├── .storybook/
-│   ├── main.ts
-│   ├── preview.ts
-├── tsconfig.json
-├── vite.config.ts
+│   ├── main.js
+│   ├── preview.js
 ├── package.json
-└── README.md
-
+├── tsconfig.json
+├── README.md
 
 
 📦 Folder & File Overview
@@ -114,39 +117,6 @@ Contains all reusable components for the design system, grouped by category:
  . Tailwind CSS
 
 
- Project Folder Structure
-
- storybook-design-system/
-├── node_modules/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── typography/
-│   │   │   ├── Heading.tsx
-│   │   │   ├── Paragraph.tsx
-│   │   │   ├── Caption.tsxx
-│   │   │   ├── textStyles.tsx
-│   │   │   ├── Heading.stories.tsx
-│   │   │   ├── Paragraph.stories.tsx
-│   │   │   ├── Caption.stories.tsx
-│   │   ├── data-entry/
-│   │   │   ├── TextInput.tsx
-│   │   │   ├── Dropdown.tsx
-│   │   │   ├── TextInput.stories.tsx
-│   │   │   ├── Dropdown.stories.tsx
-│   │   ├── feedback/
-│   │       ├── Alert.tsx
-│   │       ├── Toast.tsx
-│   │       ├── Modal.tsx
-│   │       ├── Alert.stories.tsx
-│   │       ├── Toast.stories.tsx
-│   │       ├── Modal.stories.tsx
-├── .storybook/
-│   ├── main.js
-│   ├── preview.js
-├── package.json
-├── tsconfig.json
-├── README.md
 
 
 
